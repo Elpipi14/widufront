@@ -6,7 +6,7 @@ import axios from 'axios';
 import Notiflix from 'notiflix';
 
 const Contact = () => {
-    useDocTitle('Cleartech | Send us a message');
+    useDocTitle('WiduWeb | Send us a message');
 
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
